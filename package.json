@@ -1,0 +1,19 @@
+{
+  "name": "aplicacion-peliculas",
+  "version": "1.0.0",
+  "description": "Aplicación de películas, consuma API",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinrivera20/Aplicacion-peliculas.git"
+  },
+  "author": "@Santiago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinrivera20/Aplicacion-peliculas/issues"
+  },
+  "homepage": "https://github.com/kevinrivera20/Aplicacion-peliculas#readme"
+}
