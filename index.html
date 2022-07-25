@@ -10,6 +10,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&family=Red+Hat+Display:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles/app.css" />
   <link rel="manifest" href="./manifest.json">
+  <script>
+    if("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js")
+    }
+  </script>
 
   <title>Movies</title>
 </head>
@@ -136,10 +141,5 @@
   <script src="./src/nodes.js"></script>
   <script src="./src/main.js"></script>
   <script src="./src/navigation.js"></script>
-  <script>
-    if("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("sw.js")
-    }
-  </script>
 </body>
 </html>
