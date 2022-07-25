@@ -1,0 +1,17 @@
+{
+    "name": "Conocer películas y series",
+    "short_name": "Películas y series",
+    "theme_color": "#A5007B",
+    "background_color": "#fff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url":  "./",
+    "icons": [ {
+        "src" : "./assets/icono.jpg",
+        "type" : "image/jpg",
+        "sizes": "512x512" 
+        } 
+    ]       
+
+}
